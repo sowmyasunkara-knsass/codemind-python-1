@@ -1,0 +1,11 @@
+my_list = [10,20,40,50,40]
+length = len(my_list)
+print(length)
+total = sum(my_list)
+print(total)
+maximum = max(my_list)
+print(maximum)
+minimum = min(my_list)
+print(minimum)
+sor = sorted(my_list)
+print(sor)
