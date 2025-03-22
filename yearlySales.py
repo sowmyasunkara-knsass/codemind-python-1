@@ -1,0 +1,8 @@
+plt.figure(figsize = (8,5))
+plt.plot(df['year'],df['sales'],marker='o',color='g',label='sales')
+plt.title('yearly sales trend')
+plt.xlabel('year')
+plt.ylabel('sales')
+plt.grid(True)
+plt.legend()
+plt.show()
